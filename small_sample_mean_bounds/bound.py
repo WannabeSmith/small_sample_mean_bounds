@@ -1,7 +1,7 @@
 
 import numpy as np
 from numpy.linalg import norm
-from helper import induced_mean, vertices_with_intersection
+from .helper import induced_mean, vertices_with_intersection
 
 
 def b_alpha_linear_inner(z, alpha,  T, lower = 0, upper = 1,  num_samples = 10000, degree=1 ):
